@@ -1,0 +1,36 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import '../base/mixins';
+@import '../base/common';
+
+.bg-primary{
+    background-color: $primary !important;
+}
+.bg-secondary{
+    background-color: $secondary !important;
+}
+.text-primary{
+    color: $primary !important;
+}
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            @include navItem();
+        }
+    }
+}
+.btn-lg{
+    padding: 1rem 1.75rem !important;
+}
+.py-5{
+    padding: 7rem 0 !important;
+}
+.px-5{
+    padding: 0 8rem !important;
+}
+.ml-7{
+    margin-left: 7rem !important;
+}
+.mr-5{
+    margin-right: 5rem !important;
+}
+    

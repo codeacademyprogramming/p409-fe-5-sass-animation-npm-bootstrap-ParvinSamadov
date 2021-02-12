@@ -1,0 +1,50 @@
+$primary:#2c3e50;
+$secondary:#1abc9c;
+$spacer: 4px;
+*{
+    box-sizing: border-box;
+}
+header {
+    top: 0;
+    z-index: 1;
+    padding: 1.5rem 0 !important;
+}
+.bottom-of-header{
+    margin-top: -74px;
+    height: 100vh;
+}
+h1{
+    font-size: 4rem;
+}
+.navbar{
+   .navbar-brand{
+        font-size: 1.75rem !important;
+        font-weight: 700;
+        }
+}
+.divider{
+    &__line{
+        width: 7rem;
+        height: 3px;
+        border-radius: 6px;
+    }
+}
+.divider{
+        padding: 10px;
+        margin: 1.25rem 0 1.5rem;
+}
+.divider{
+    i{
+        font-size: 2rem;
+        margin: 0 10px;
+    }
+}
+.border-radius{
+    border-radius: 10px !important;
+}
+.vh-70{
+    height: 70vh !important;
+}
+.padding-for-sections{
+    padding: 1rem 8rem 2.5rem 8rem;
+}

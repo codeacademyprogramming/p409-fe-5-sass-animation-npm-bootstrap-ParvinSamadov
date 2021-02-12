@@ -1,0 +1,124 @@
+@import '../base/common';
+$footer-color:#1a252f;
+
+.row{
+    .col-9{
+        img{
+            height: 20rem !important;
+        }
+        &__start{
+            font-size: 5.5rem;
+        }
+    }
+}   
+.col-8{
+    p{
+        margin: 0px 20px;
+    }
+}
+.row{
+    .col-12{
+        .col-4{
+            div{
+                .for-hover{
+                    top: 0;
+                    left: 0;
+                    opacity: 0;
+                    cursor: pointer;
+                    transition: all 0.2s ease-in-out;
+                    i{
+                       font-size: 8rem;
+                    }
+                }
+                &:hover{
+                    .for-hover{
+                        opacity: 0.9;
+                    }
+                } 
+            }
+            
+        }
+        
+    }
+}
+.container{
+    .row{
+        .download-button{
+            padding: 1rem 1.75rem;
+            font-size: 1.25rem;
+            box-shadow: none;
+            border: 3px white solid;
+            border-radius: 6px;
+            transition: 0.4s;
+            &:hover{
+                color: $primary !important;  
+                background-color: white !important;
+            }
+        }
+    }
+}
+.col-9{
+    form{
+        .input-container{
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid #e9ecef;
+            outline: none; 
+            padding: 25px 0px;
+            &:focus + .input__label{
+                color: $secondary;
+                top: -1px !important;
+                left: 0px;
+                font-size: 12px;
+            }
+
+            &:valid:not(:focus) + .input__label{
+                color: $primary;
+                top: -1px !important;
+                left: 0px;
+                font-size: 12px;
+            }
+        }
+        div{
+            position: relative;
+        }
+        .input__label{
+            position: absolute;
+            color: rgb(102, 102, 102);
+            top: 15px !important;
+            left: 0;
+            font-size: 1.5em;
+        }
+        button:hover{
+                background-color: #31927f !important;
+            }   
+    }
+}
+footer{
+    background-color: $footer-color;
+}
+.col-12{
+    .col-3{
+        font-size: 25px !important;
+        height: 4rem;
+        border: 2px solid white;
+        max-width: 23% !important;
+        transition: 0.4s;
+        &:hover{
+            color: $footer-color !important;
+            background-color: white !important;
+            cursor: pointer;
+        }
+    }
+}
+.col-12{
+    h5{
+        a{
+            color: $secondary !important;
+            &:hover{
+                color:#31927f !important;
+            }
+        }
+    }
+}
+

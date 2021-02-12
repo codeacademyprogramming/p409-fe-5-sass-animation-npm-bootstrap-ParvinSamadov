@@ -1,0 +1,13 @@
+@import '../base/common';
+
+@mixin navItem() {
+    color: white !important;
+    transition: .2s;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+
+    &:hover {
+        color: $secondary !important;
+    }
+}
